@@ -1,0 +1,304 @@
+/*!
+ * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+body{
+  font-family: 'Open Sans', sans-serif !important;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+  color: rgba(64,86,3,1.0) !important;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .active>.nav-link::after{
+  border-bottom:3px solid #405603;
+  content:"";
+  display:block;
+  margin: 0 auto;
+  padding:5px;
+  width:30px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: rgba(64,86,3,1.0) !important;
+  text-transform:  uppercase;
+}
+.navbar-light .navbar-toggler{
+  border-color: rgba(64,86,3,1.0);
+}
+/* Teste
+.jumbotron{
+  background:transparent;
+  background-size:cover;
+  background-image: url('/Users/marimultimidia/Documents/marimultimidia/Templates_Sites_Temas/Food/site/images/banner.jpg');
+  width: 100%;
+  background-repeat:no-repeat;
+  height:700px;
+  border-radius: 0px;
+}*/
+
+.jumbotron{
+  background:transparent;
+}
+
+.background-img{
+  background:transparent;
+  background-size:cover;
+  background-image: url(/Users/marimultimidia/Documents/GitHub/portfolio_mariana/images/banner.jpg);
+  width: 100%;
+  background-repeat:no-repeat;
+  height:700px;
+  border-radius: 0px;
+}
+
+.bg-light{background: transparent !important;}
+
+.navbar-light .navbar-brand{color: rgba(254,222,0,1.0);}
+
+.container h1, .container h3{
+  text-align: center;
+  font-weight: 700;
+}
+.container h1{margin-top: 103px;color: #fede00;
+  text-shadow: 2px 2px #000;font-size: 60px;padding-bottom: 27px;
+}
+.container h3{font-size: 30px; color: #405603;padding-bottom: 20px;}
+.container .text-column{font-weight: 500; font-size: 25px;}
+.btn-success{margin:0 auto; background:transparent; border: 3px solid #405603; color: #405603;}
+.btn-success:hover{
+  background: rgba(64,86,3,1.0);
+  color: #fff;
+}
+
+
+/* col-4, images, icons and styles */
+.title1{color:rgba(64,86,3,1.0); padding-top: 10px;padding-bottom: 20px;;font-weight: 700;}
+
+#bg-img1{
+  background:transparent;
+  background-size:cover;
+  background-image: url('/Users/marimultimidia/Documents/marimultimidia/Templates_Sites_Temas/Food/site/portfolio_mariana/images/img1.png');
+  width: 100%;
+  background-repeat:no-repeat;
+  height:304px;
+  border-radius: 0px;
+}
+
+#bg-img2{
+  background:transparent;
+  background-size:cover;
+  background-image: url('/Users/marimultimidia/Documents/marimultimidia/Templates_Sites_Temas/Food/site/portfolio_mariana/images/img2.png');
+  width: 100%;
+  background-repeat:no-repeat;
+  height:304px;
+  border-radius: 0px;
+}
+#bg-img3{
+  background:transparent;
+  background-size:cover;
+  background-image: url('/Users/marimultimidia/Documents/marimultimidia/Templates_Sites_Temas/Food/site/portfolio_mariana/images/img3.png');
+  width: 100%;
+  background-repeat:no-repeat;
+  height:304px;
+  border-radius: 0px;
+}
+.col-4 h3, .col-5 h2{
+  font-size: 23px;
+  color: rgba(64, 86, 3, 1.0);
+  text-align: center;
+  padding-bottom: 10px;
+}
+.col-lg-4  .text, .col-sm-4 .text {
+  font-size: 18px;
+  text-align: justify;
+  color: rgba(64, 86, 3, 1.0);
+  text-shadow: 0.5px 0.2px #000;
+  line-height: 30px;
+  padding: 0px 10px 0px 10px
+}
+.fa-utensils:before{
+  color: rgba(254, 222, 0, 1.0);
+  font-size: 48px;
+}
+hr{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: transparent;
+}
+hr.line{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px solid #405603;
+}
+
+/* About us */
+
+#img-background-about{
+  background:transparent;
+  background-size:cover;
+  background-image: url('/Users/marimultimidia/Documents/marimultimidia/Templates_Sites_Temas/Food/site/portfolio_mariana/images/background-about-home.jpg');
+  width: 100%;
+  background-repeat:no-repeat;
+  height:auto;
+  border-radius: 0px;
+}
+
+/* Last video and text + top buttom */
+.col-lg-4 h2, .col-sm-4 h2{
+  font-size: 25px;
+  text-align: justify;
+  color: rgba(64, 86, 3, 1.0);
+}
+.col-lg-4 #text-video, .col-sm-4 #text-video{
+  text-shadow: none;
+  line-height: 25px;
+  padding: 0px 0px 0px 0px;
+  text-align: justify;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border:none;
+    outline: none; /* Remove outline */
+    background-color: rgba(64, 86, 3, 1.0); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #218838; /* Add a dark-grey background on hover */
+    border-color: #1e7e34;
+}
+
+.fa, .far, .fas {
+    font-family: Font Awesome\ 5 Free;
+    font-size: 30px;
+}
+
+/* big background + text and buttom */
+#img-background{
+  background:transparent;
+  background-size:cover;
+  background-image: url('/Users/marimultimidia/Documents/marimultimidia/Templates_Sites_Temas/Food/site/portfolio_mariana/images/img-bg.jpg');
+  width: 100%;
+  background-repeat:no-repeat;
+  height:300px;
+  border-radius: 0px;
+}
+.btn-yellow{margin:0 auto; background:transparent; border: 3px solid #fede00; color: #fede00; text-shadow: none;}
+.btn-yellow:hover{
+    background: rgba(254, 222, 0, 1.0);
+    color: #fff;
+}
+
+.shadow{
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.form-control.is-valid{
+  border-bottom-color: rgba(64,86,3,1.0);
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-radius: 0;
+}
+
+/* Contact Form */
+
+.green{
+  color: rgba(64, 86, 3, 1.0);
+}
+
+/* styles for about part */
+
+.fa-info-circle:before {
+    content: "\f05a";
+    font-size: 31px;
+    color: rgba(254, 222, 0, 1.0);
+}
+.col-6 h3{padding-top: 20px;font-size: 25px; color: rgba(254, 222, 0, 1.0); font-weight: 500; text-align: center;}
+.col-6 .text-about {font-size: 20px; color: rgba(254, 222, 0, 1.0); font-weight: 500; text-align: justify; text-shadow: 1px 1px #000; padding: 0px 10px 35px 10px;}
+
+
+/* Collumn showing infos about menu */
+
+.col-12 h3{padding-top: 35px; font-size: 25px; color: rgba(254, 222, 0, 1.0); font-weight: 500;}
+.col-12 p{padding-top: 20px; font-size: 20px; color: rgba(254, 222, 0, 1.0); font-weight: 500;text-shadow: 1px 1px #000;}
+
+/* Random Testimonials - */
+.testimonial{
+  text-align: justify;
+  color: rgba(64, 86, 3, 1.0);
+  padding: 30px 30px;
+  font-style: italic;
+  text-shadow: none !important;
+}
+.testimonial-link{
+	font-size: 18px;
+	text-align: center;
+  text-transform: uppercase;
+	color: rgba(64, 86, 3, 1.0);
+}
+.testimonial-link:hover, .testimonial-link:after{
+  text-decoration: underline;
+  color: rgba(64, 86, 3, 1.0);
+}
+.img-center{
+	display: block;
+	margin:auto;
+}
+
+/* Contact form */
+
+.error{
+  font-size: 14px !important;
+  color: #000 !important;
+  text-shadow: none !important;
+}
+
+/* Foooter */
+footer{background: rgba(236, 224, 183, 1.0);}
+.footer-text{
+  margin-top: 15px;
+  color: rgba(64, 86, 3, 1.0);
+  font-size: 20px !important;
+  text-align: center;
+  font-weight: 300 !important;
+}
+.fab {
+    font-family: Font Awesome\ 5 Brands;
+    font-size: 31px;
+}
+.social-media{list-style: none;text-align: center;}
+.list-item-social-media{display: inline-block;margin: 0 auto;}
+.list-item{list-style: none; text-align: center;font-size: 1rem;padding: 0px 40px 5px 0px;}
+.link-footer{color: rgba(64, 86, 3, 1.0);}
+.link-footer:hover, .link-footer:after{color: rgba(64, 86, 3, 1.0);text-decoration: underline;}
+.footer-text-1, .footer-text-1 a{color: rgba(64, 86, 3, 1.0); text-align: center;}
+.footer-text-1 a:hover, .footer-text-1 a:after{color: rgba(64, 86, 3, 1.0); text-decoration: underline;}
+
+/* Last container - Copyright Mariana Rodrigues */
+.copyright{background: rgba(64, 86, 3, 1.0);}
+.text-copyright{text-align: center;font-size: 1rem; color:rgba(236, 224, 183, 1.0); padding-top: 15px;}
+
+
+/* Media query  */
+@media (max-width:768px) {
+  .navbar-light .navbar-nav .active>.nav-link::after{
+    margin: 0;
+  }
+
+}
