@@ -141,7 +141,7 @@ hr.line{
 #img-background-about{
   background:transparent;
   background-size:cover;
-  background-image: url('/Users/marimultimidia/Documents/marimultimidia/Templates_Sites_Temas/Food/site/portfolio_mariana/images/background-about-home.jpg');
+  background-image: url('https://marimultimidia.github.io/portfolio_mariana/images/background-about-home.jpg');
   width: 100%;
   background-repeat:no-repeat;
   height:auto;
@@ -191,7 +191,7 @@ hr.line{
 #img-background{
   background:transparent;
   background-size:cover;
-  background-image: url('/Users/marimultimidia/Documents/marimultimidia/Templates_Sites_Temas/Food/site/portfolio_mariana/images/img-bg.jpg');
+  background-image: url('https://marimultimidia.github.io/portfolio_mariana/images/img-bg.jpg');
   width: 100%;
   background-repeat:no-repeat;
   height:300px;
