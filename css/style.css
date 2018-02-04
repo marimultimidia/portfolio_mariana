@@ -33,7 +33,7 @@ body{
 .jumbotron{
   background:transparent;
   background-size:cover;
-  background-image: url('/Users/marimultimidia/Documents/marimultimidia/Templates_Sites_Temas/Food/site/images/banner.jpg');
+  background-image: url('https://marimultimidia.github.io/portfolio_mariana/images/banner.jpg');
   width: 100%;
   background-repeat:no-repeat;
   height:700px;
@@ -47,7 +47,7 @@ body{
 .background-img{
   background:transparent;
   background-size:cover;
-  background-image: url(/Users/marimultimidia/Documents/GitHub/portfolio_mariana/images/banner.jpg);
+  background-image: url(https://marimultimidia.github.io/portfolio_mariana/banner.jpg);
   width: 100%;
   background-repeat:no-repeat;
   height:700px;
@@ -80,7 +80,7 @@ body{
 #bg-img1{
   background:transparent;
   background-size:cover;
-  background-image: url('/Users/marimultimidia/Documents/marimultimidia/Templates_Sites_Temas/Food/site/portfolio_mariana/images/img1.png');
+  background-image: url('https://marimultimidia.github.io/portfolio_mariana/mages/img1.png');
   width: 100%;
   background-repeat:no-repeat;
   height:304px;
@@ -90,7 +90,7 @@ body{
 #bg-img2{
   background:transparent;
   background-size:cover;
-  background-image: url('/Users/marimultimidia/Documents/marimultimidia/Templates_Sites_Temas/Food/site/portfolio_mariana/images/img2.png');
+  background-image: url('https://marimultimidia.github.io/portfolio_mariana/images/img2.png');
   width: 100%;
   background-repeat:no-repeat;
   height:304px;
@@ -99,7 +99,7 @@ body{
 #bg-img3{
   background:transparent;
   background-size:cover;
-  background-image: url('/Users/marimultimidia/Documents/marimultimidia/Templates_Sites_Temas/Food/site/portfolio_mariana/images/img3.png');
+  background-image: url('https://marimultimidia.github.io/portfolio_mariana/images/img3.png');
   width: 100%;
   background-repeat:no-repeat;
   height:304px;
